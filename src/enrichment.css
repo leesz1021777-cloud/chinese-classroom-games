@@ -1,0 +1,1056 @@
+.app {
+  --wisteria: #8761ac;
+}
+.brand-orbit {
+  background: #eee4f8;
+  color: #885cad;
+}
+.brand-orbit:after {
+  border-color: #b08ccd;
+}
+.hero {
+  background: linear-gradient(120deg, #eaf4f8, #f0e6f7);
+}
+.hero-tag {
+  color: #815c9f;
+}
+.hero h1 span {
+  color: #8d60a8;
+}
+.hero-copy .primary,
+.picker .primary {
+  background: #8c63aa;
+  border-color: #8c63aa;
+}
+.quick-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+.quick-grid > button {
+  padding: 17px 13px;
+  gap: 10px;
+}
+.quick-grid h3 {
+  font-size: 14px;
+}
+.quick-grid p {
+  font-size: 11px;
+}
+.quick-icon {
+  width: 42px;
+  height: 42px;
+}
+.quick-grid > button > span:last-child {
+  font-size: 13px;
+}
+.learning-map {
+  margin: 30px 0 36px;
+}
+.learning-map > .muted {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.book-tabs {
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+.book-tabs button {
+  font-size: 13px;
+  padding: 9px 18px;
+}
+.unit-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+}
+.unit-card {
+  text-align: left;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #e2e4ee;
+  position: relative;
+  overflow: hidden;
+}
+.unit-card:after {
+  content: '✿';
+  position: absolute;
+  font-size: 110px;
+  bottom: -40px;
+  right: -17px;
+  color: #a786bd0d;
+  pointer-events: none;
+}
+.unit-card:hover {
+  background: #faf6fe;
+  border-color: #b59bc9;
+}
+.unit-icon {
+  font-size: 32px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.unit-tag {
+  position: absolute;
+  top: 22px;
+  right: 18px;
+  color: #8b759c;
+  font-size: 10px;
+  padding: 4px 8px;
+  background: #f4edf9;
+  border-radius: 20px;
+}
+.unit-card h3 {
+  font-size: 17px;
+  margin: 0 0 9px;
+}
+.unit-card p {
+  font-size: 12px;
+  color: #82919b;
+  margin: 0 0 12px;
+}
+.unit-card small {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+}
+.unit-card small > span {
+  font-size: 11px;
+  color: #8c66a4;
+}
+.content-upgrade {
+  font-size: 13px;
+}
+.adventure-trail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+  border: 1px solid #e8e3ef;
+  border-radius: 14px;
+  background: linear-gradient(100deg, #f7f1fc, #f5fafb);
+  padding: 10px 16px;
+  margin: 15px 0;
+}
+.adventure-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 200px;
+}
+.adventure-name > span {
+  font-size: 28px;
+}
+.adventure-name strong {
+  display: block;
+  font-size: 14px;
+  color: #6b507f;
+}
+.adventure-name small {
+  display: block;
+  font-size: 11px;
+  color: #9583a0;
+  margin-top: 3px;
+}
+.journey-stops {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.journey-stops span {
+  position: relative;
+  border: 2px solid #e1d7e9;
+  background: white;
+  color: #c7b8d2;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 19px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.journey-stops span:not(:last-child):after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  left: 100%;
+  background: #e1d7e9;
+}
+.journey-stops .reached {
+  border-color: #b293c9;
+  background: #eee3f6;
+  color: #8f60ae;
+}
+.star-counter {
+  color: #8a6940;
+  font-size: 15px;
+  white-space: nowrap;
+  font-weight: 600;
+}
+.reward-garden {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  gap: 30px;
+  background: linear-gradient(100deg, #f3e8fb, #fff5de);
+  border-radius: 20px;
+  padding: 24px;
+  margin: 25px auto;
+  max-width: 900px;
+}
+.reward-garden h2 {
+  font-size: 25px;
+  margin: 0 0 8px;
+}
+.reward-garden p {
+  font-size: 14px;
+  margin: 0;
+}
+.flower-medal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 160px;
+  background: #fff;
+  border: 8px solid #e6c4f1;
+  border-radius: 45%;
+  box-shadow: 0 5px 0 #cea9e130;
+  flex-shrink: 0;
+  animation: medal-bloom 0.7s ease-out;
+}
+.flower-medal > span {
+  font-size: 60px;
+}
+.flower-medal > strong {
+  font-size: 14px;
+  color: #8d66a3;
+}
+.reward-petals {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+.reward-petals span {
+  font-size: 35px;
+  color: #dccce6;
+}
+.reward-petals .lit {
+  color: #a17abb;
+  animation: medal-bloom 0.7s ease-out;
+}
+.forest-scene {
+  position: relative;
+  background: linear-gradient(#f4f9ec, #e4efd966);
+  border-radius: 22px;
+  padding: 10px 15px 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.forest-sign {
+  font-size: 12px;
+  color: #7d925a;
+  background: #ffffffb0;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 5px 16px;
+  margin-bottom: 4px;
+}
+.forest-decoration {
+  position: absolute;
+  font-size: 52px;
+  left: 14px;
+  bottom: 10px;
+  opacity: 0.7;
+  pointer-events: none;
+}
+.forest-decoration.right {
+  left: auto;
+  right: 16px;
+  bottom: 15px;
+  transform: rotate(12deg);
+}
+.forest-scene .answer {
+  background: #fffaf1;
+}
+.forest-scene .mole {
+  box-shadow: 0 13px 0 #879b5555;
+}
+.forest-scene .mole.correct {
+  background: #e5f1d4;
+  border-color: #88ad67;
+  animation: found-mole 0.5s ease-out;
+}
+.mole-face {
+  filter: drop-shadow(0 2px 0 #be8d5440);
+}
+.scene-treasure {
+  font-size: 16px;
+  color: #7b9260;
+  margin: 6px 0 12px;
+  animation: medal-bloom 0.4s ease-out;
+}
+.rail-landscape {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  margin: 0 0 10px;
+  position: relative;
+}
+.rail-landscape:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -12px;
+  border-bottom: 3px dashed #97b9cc;
+}
+.train-scene {
+  background: linear-gradient(#e4f3fd, #f4eacf);
+  border-bottom: 8px solid #b3c7bc;
+}
+.train.arrived {
+  animation: train-cheer 0.9s ease-out;
+}
+.car {
+  position: relative;
+}
+.car:before,
+.car:after {
+  content: '';
+  position: absolute;
+  background: #7b8e9a;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  bottom: -17px;
+  left: 14px;
+}
+.car:after {
+  left: auto;
+  right: 14px;
+}
+.car-drop {
+  max-width: 650px;
+  margin: 8px auto 15px;
+  padding: 13px;
+  border: 2px dashed #a5bdca;
+  background: #f2f8fb;
+  border-radius: 14px;
+  color: #6c8e9e;
+  font-size: 13px;
+}
+.balloon-sky {
+  background: linear-gradient(#edf8fd, #f7eafb);
+  border-radius: 20px;
+  padding: 15px 20px 8px;
+  overflow: hidden;
+  position: relative;
+}
+.tone-guide {
+  font-size: 13px;
+  color: #7c809d;
+  margin: 5px 0 12px;
+}
+.balloon {
+  animation: none;
+}
+.balloon > span {
+  animation: balloon-float 3.5s ease-in-out infinite;
+}
+.balloon-1 > span {
+  animation-delay: -0.7s;
+}
+.balloon-2 > span {
+  animation-delay: -1.4s;
+}
+.balloon-3 > span {
+  animation-delay: -2.1s;
+}
+.balloon.fly {
+  animation: balloon-reward 0.8s ease-out forwards;
+}
+.detective-case {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 12px 18px;
+  background: #f1ebf8;
+  border: 1px dashed #c7b4d9;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 0 auto 18px;
+  text-align: left;
+}
+.detective-case > span:first-child {
+  font-size: 42px;
+}
+.detective-case strong {
+  font-size: 17px;
+  color: #746086;
+  display: block;
+}
+.detective-case small {
+  font-size: 12px;
+  color: #927e9e;
+  display: block;
+  margin-top: 4px;
+}
+.case-seal {
+  font-size: 12px;
+  border: 2px solid #b18cc4;
+  border-radius: 8px;
+  padding: 6px 10px;
+  color: #9d75b2;
+  transform: rotate(9deg);
+  margin-left: 20px;
+}
+.stamp-collector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 10px 0;
+}
+.character-stamp {
+  border: 3px solid #a986bc;
+  border-radius: 12px;
+  padding: 10px 20px;
+  color: #9473a8;
+  font-size: 46px;
+  transform: rotate(-9deg);
+  animation: stamp-in 0.4s ease-out;
+}
+.character-stamp small {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #ad8fc0;
+}
+.game-detective .answer {
+  background: #fff9e9;
+  border-color: #d0b88a;
+  box-shadow: 0 5px 0 #c3b18f25;
+}
+.river-scene {
+  background: linear-gradient(#c5eced, #aae0e8);
+}
+.river-waves {
+  animation: river-flow 4s ease-in-out infinite;
+  white-space: nowrap;
+}
+.river-mailbox {
+  position: absolute;
+  right: 1%;
+  top: 18px;
+  font-size: 50px;
+  z-index: 2;
+}
+.scene-caption {
+  font-size: 13px;
+  color: #71888e;
+  margin: 8px 0 12px;
+}
+.game-bridge .answer {
+  background: #fff2d9;
+  border-color: #dbb581;
+  box-shadow: 0 6px 0 #b9905940;
+  border-radius: 10px;
+}
+.sentence-banner {
+  font-size: 18px;
+  color: #8f709f;
+  padding: 8px;
+}
+.token:after {
+  content: '●  ●';
+  display: block;
+  color: #bca18a;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: 8px;
+  margin-top: 6px;
+}
+.token-bank .token {
+  transform: rotate(-2deg);
+}
+.token-bank .token:nth-child(even) {
+  transform: rotate(2deg);
+}
+.ordered .token {
+  background: #f3e9fc;
+  border-color: #cdb4e2;
+  transform: none;
+}
+.sentence-hint {
+  background: #fff5d8;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 14px;
+  color: #8c7344 !important;
+}
+.sentence-finale {
+  font-size: 25px;
+  color: #7e6892;
+  background: #efe5f7;
+  border-radius: 14px;
+  padding: 20px;
+  margin-top: 18px;
+  animation: medal-bloom 0.5s ease-out;
+}
+.reading-stage-top {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #8f739e;
+}
+.reading-stage-top button {
+  font-size: 12px;
+  border-color: #d8c9e3;
+  background: #faf5fd;
+}
+.reading-beats {
+  letter-spacing: 8px;
+  color: #caa9de;
+  font-size: 18px;
+}
+.reading-text {
+  box-shadow: 0 7px 0 #d7c5a735;
+  border: 1px solid #eee0bf;
+}
+.reading-active {
+  box-shadow: 0 0 0 3px #e9cc8540;
+  animation: read-pulse 0.65s ease-out;
+}
+.picker {
+  max-width: 1200px;
+  margin: auto;
+}
+.picker-mark {
+  font-size: 58px;
+  color: #b095c3;
+}
+.picker-settings {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin: 25px 0;
+}
+.picker-settings > label:first-child {
+  min-width: 240px;
+}
+.picker-settings button {
+  font-size: 12px;
+}
+.picker-stage {
+  position: relative;
+  isolation: isolate;
+  text-align: center;
+  background: radial-gradient(ellipse at 50% 30%, #fff, #f3e8f9);
+  border: 1px solid #e4d5ee;
+  border-radius: 24px;
+  padding: 45px 20px 30px;
+  overflow: hidden;
+}
+.picked-name {
+  font-size: clamp(36px, 5vw, 80px);
+  font-weight: 700;
+  color: #7e549c;
+  line-height: 1.6;
+  min-height: 120px;
+  overflow-wrap: anywhere;
+}
+.picker-stage p {
+  font-size: 14px;
+  color: #9a80ac;
+  margin: 10px 0 22px;
+}
+.picker-petal {
+  position: absolute;
+  color: #bba0d155;
+  font-size: 100px;
+  z-index: -1;
+}
+.picker-petal.p1 {
+  top: 15px;
+  left: 8%;
+  transform: rotate(-20deg);
+}
+.picker-petal.p2 {
+  right: 8%;
+  top: 40px;
+  font-size: 70px;
+  transform: rotate(15deg);
+}
+.picker-petal.p3 {
+  right: 20%;
+  bottom: 25px;
+  font-size: 50px;
+}
+.picker-stage.rolling .picker-petal {
+  animation: petal-turn 4s linear infinite;
+}
+.picker-stage.rolling .picked-name {
+  color: #a888bb;
+}
+.picker-announcement {
+  font-size: 13px;
+  color: #8e729e;
+  min-height: 20px;
+  margin-top: 20px;
+}
+.picker-history {
+  margin-top: 25px;
+}
+.picker-history h2 {
+  font-size: 20px;
+}
+.picker-history > div,
+.roster-preview {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.picker-history span,
+.roster-preview span {
+  font-size: 14px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #f1e7f8;
+  color: #816292;
+}
+.roster-preview {
+  margin: 18px 0;
+}
+.picker .modal > label {
+  margin: 16px 0;
+}
+.privacy-note {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #8a8796;
+  margin: 25px 0 0;
+}
+@keyframes medal-bloom {
+  from {
+    transform: scale(0.85);
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes found-mole {
+  30% {
+    transform: scale(0.92);
+  }
+  70% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes train-cheer {
+  from {
+    filter: none;
+  }
+  40% {
+    filter: drop-shadow(0 0 8px #e6c487);
+  }
+  to {
+    filter: none;
+  }
+}
+@keyframes balloon-float {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -6px;
+  }
+}
+@keyframes balloon-reward {
+  0% {
+    translate: 0 0;
+    opacity: 1;
+  }
+  100% {
+    translate: 0 -35px;
+    opacity: 0.65;
+  }
+}
+@keyframes stamp-in {
+  from {
+    transform: scale(1.5) rotate(-12deg);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) rotate(-9deg);
+    opacity: 1;
+  }
+}
+@keyframes river-flow {
+  0%,
+  100% {
+    translate: -7px 0;
+  }
+  50% {
+    translate: 7px 0;
+  }
+}
+@keyframes read-pulse {
+  from {
+    background: #fff0ba;
+  }
+  to {
+    background: #f5d069;
+  }
+}
+@keyframes petal-turn {
+  to {
+    rotate: 360deg;
+  }
+}
+@media (min-width: 1700px) {
+  .unit-cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .quick-grid > button {
+    padding: 22px 18px;
+  }
+  .quick-grid h3 {
+    font-size: 17px;
+  }
+  .quick-grid p {
+    font-size: 12px;
+  }
+  .quick-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .adventure-trail {
+    padding: 14px 20px;
+  }
+  .unit-card {
+    padding: 24px;
+  }
+  .unit-card h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1150px) {
+  .quick-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .quick-grid h3 {
+    font-size: 15px;
+  }
+  .quick-grid p {
+    font-size: 11px;
+  }
+  .journey-stops {
+    gap: 15px;
+  }
+  .journey-stops span:not(:last-child):after {
+    width: 19px;
+  }
+  .adventure-name {
+    min-width: 170px;
+  }
+  .unit-card h3 {
+    font-size: 15px;
+  }
+  .unit-card {
+    padding: 17px;
+  }
+  .unit-tag {
+    top: 18px;
+    right: 12px;
+    font-size: 9px;
+  }
+}
+@media (min-width: 1100px) and (max-height: 850px) {
+  .class-mode .adventure-trail {
+    margin: 10px 0;
+    padding: 6px 12px;
+  }
+  .class-mode .adventure-name strong {
+    font-size: 12px;
+  }
+  .class-mode .adventure-name small {
+    font-size: 10px;
+  }
+  .class-mode .adventure-name > span {
+    font-size: 23px;
+  }
+  .class-mode .journey-stops span {
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+  }
+  .class-mode .star-counter {
+    font-size: 13px;
+  }
+  .class-mode .forest-scene {
+    padding: 6px 15px 3px;
+    margin-top: 4px;
+  }
+  .class-mode .forest-sign {
+    display: none;
+  }
+  .class-mode .forest-scene .holes {
+    gap: 13px 40px;
+  }
+  .class-mode .forest-scene .mole {
+    font-size: 58px;
+    min-height: 80px;
+  }
+  .class-mode .scene-treasure {
+    font-size: 14px;
+    margin: 0 0 8px;
+  }
+  .class-mode .feedback {
+    font-size: 15px;
+  }
+  .class-mode .feedback small {
+    font-size: 13px;
+  }
+  .class-mode .rail-landscape {
+    font-size: 23px;
+    margin-bottom: 6px;
+  }
+  .class-mode .train-modes {
+    margin-bottom: 10px;
+  }
+  .class-mode .train-scene {
+    padding: 10px;
+  }
+  .class-mode .train {
+    gap: 10px;
+  }
+  .class-mode .car {
+    padding: 10px 20px;
+    font-size: 29px;
+  }
+  .class-mode .engine {
+    font-size: 65px;
+  }
+  .class-mode .train-scene p {
+    font-size: 12px;
+  }
+  .class-mode .balloon-sky {
+    padding: 8px;
+  }
+  .class-mode .balloon {
+    height: 165px;
+    width: 140px;
+    font-size: 15px;
+  }
+  .class-mode .balloon span {
+    font-size: 70px;
+  }
+  .class-mode .detective-case {
+    padding: 6px 12px;
+    margin-bottom: 10px;
+  }
+  .class-mode .detective-case > span:first-child {
+    font-size: 32px;
+  }
+  .class-mode .detective-case strong {
+    font-size: 14px;
+  }
+  .class-mode .sentence-stage {
+    padding: 16px;
+  }
+  .class-mode .sentence-stage p {
+    margin-bottom: 8px;
+  }
+  .class-mode .sentence-banner {
+    padding: 2px;
+    font-size: 16px;
+  }
+  .class-mode .ordered {
+    margin: 10px 0;
+    min-height: 125px;
+    padding: 14px;
+  }
+  .class-mode .token-bank {
+    margin: 14px 0;
+  }
+  .class-mode .reading-stage-top {
+    margin-bottom: 7px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 760px) {
+  .quick-grid {
+    grid-template-columns: 1fr;
+  }
+  .unit-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .unit-tag {
+    position: static;
+    display: block;
+    width: fit-content;
+    margin-bottom: 8px;
+  }
+  .unit-card {
+    padding: 16px 12px;
+  }
+  .unit-card h3 {
+    font-size: 15px;
+  }
+  .unit-card p {
+    font-size: 10px;
+  }
+  .unit-card small {
+    display: block;
+    font-size: 12px;
+  }
+  .unit-card small > span {
+    display: block;
+    margin-top: 7px;
+  }
+  .adventure-trail {
+    gap: 9px;
+    padding: 9px;
+    flex-wrap: wrap;
+  }
+  .adventure-name {
+    min-width: 0;
+    flex: 1;
+  }
+  .adventure-name strong {
+    font-size: 12px;
+  }
+  .journey-stops {
+    order: 3;
+    flex-basis: 100%;
+    gap: 25px;
+    margin: 5px 0;
+  }
+  .journey-stops span:not(:last-child):after {
+    width: 29px;
+  }
+  .adventure-name > span {
+    font-size: 23px;
+  }
+  .star-counter {
+    font-size: 12px;
+  }
+  .forest-decoration {
+    font-size: 32px;
+  }
+  .forest-scene {
+    padding: 8px;
+  }
+  .forest-sign {
+    font-size: 10px;
+  }
+  .reward-garden {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .flower-medal {
+    width: 135px;
+    height: 135px;
+  }
+  .reward-garden h2 {
+    font-size: 21px;
+    text-align: center;
+  }
+  .reward-petals {
+    justify-content: center;
+  }
+  .reward-garden p {
+    text-align: center;
+  }
+  .detective-case {
+    padding: 10px;
+    gap: 8px;
+  }
+  .detective-case > span:first-child {
+    font-size: 30px;
+  }
+  .detective-case strong {
+    font-size: 14px;
+  }
+  .detective-case small {
+    font-size: 10px;
+  }
+  .case-seal {
+    font-size: 10px;
+    padding: 4px;
+    margin-left: 0;
+  }
+  .tone-guide {
+    font-size: 11px;
+  }
+  .balloon-sky {
+    padding: 10px;
+  }
+  .reading-stage-top {
+    gap: 8px;
+    flex-wrap: wrap;
+    font-size: 13px;
+  }
+  .reading-beats {
+    display: none;
+  }
+  .picker-stage {
+    padding: 30px 15px;
+  }
+  .picked-name {
+    min-height: 100px;
+  }
+  .picker-settings > label:first-child {
+    width: 100%;
+    min-width: 0;
+  }
+  .picker-petal {
+    font-size: 65px;
+  }
+  .picker-mark {
+    font-size: 40px;
+  }
+  .picker-stage .large {
+    font-size: 15px !important;
+  }
+  .scene-caption {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .class-mode .game-shell {
+    padding-bottom: 108px;
+  }
+  .class-mode .game-controls {
+    position: fixed;
+    left: 24px;
+    right: 24px;
+    bottom: 12px;
+    z-index: 30;
+    margin: 0;
+    padding: 12px;
+    background: #fffffff2;
+    border: 1px solid #dce8ec;
+    border-radius: 15px;
+    box-shadow: 0 4px 18px #24465416;
+  }
+}
